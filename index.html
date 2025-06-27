@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My ePortfolio</title>
+  <link rel="stylesheet" href="r.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="sidebar-header">
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+      <h1>Ritesh Pandey</h1>
+      <p class="tagline">Aspiring Web Developer</p>
+      <div class="social-icons">
+        <a href="https://linkedin.com/" target="_blank" title="LinkedIn"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn"></a>
+        <a href="mailto:riteshpandey5797@gmail.com" title="Email"><img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/mail.svg" alt="Email"></a>
+      </div>
+    </div>
+    <nav class="sidebar-nav">
+      <a href="#introduction">Introduction</a>
+      <a href="#interview">Feedback Video</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+  <div class="main-content">
+    <header class="top-header">
+      <h2>Welcome to My ePortfolio</h2>
+    </header>
+    <main>
+      <section id="introduction" class="section">
+        <h2>Introduction</h2>
+        <p>Hello! My name is <strong>Ritesh Pandey</strong>. I am an enthusiastic web developer with a passion for creating beautiful, user-friendly websites and applications. I enjoy learning new technologies and am always eager to take on new challenges. Welcome to my e-portfolio!</p>
+        <a href="resume.jpeg" class="resume-btn" target="_blank">View Resume (Image)</a>
+        <div class="video-container">
+          <video controls width="100%">
+            <source src="introduction.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
+      <section id="interview" class="section">
+        <h2>Feedback Video</h2>
+        <div class="video-container">
+          <video controls width="100%">
+            <source src="interview.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <p class="video-caption">Watch my interview to learn more about my journey and skills!</p>
+      </section>
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ritesh Pandey, a passionate web developer eager to build beautiful and functional websites. I love learning new technologies and solving real-world problems with code.</p>
+      </section>
+      <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" />
+            <span>HTML5</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" />
+            <span>CSS3</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+            <span>React</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+            <span>Python</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+            <span>Java</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+            <span>GitHub</span>
+          </div>
+          <div class="skill-badge">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+            <span>Node.js</span>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+          <div class="contact-item">
+            <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/mail.svg" alt="Email" class="contact-icon" />
+            <a href="mailto:riteshpandey5797@gmail.com">riteshpandey5797@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/map-pin.svg" alt="Location" class="contact-icon" />
+            <span>Uttarakhand, India</span>
+          </div>
+        </div>
+        <form class="contact-form" action="mailto:riteshpandey5797@gmail.com" method="POST" enctype="text/plain">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit"><img src="https://cdn.jsdelivr.net/gh/feathericons/feather/icons/send.svg" alt="Send" class="send-icon" /> Send Message</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Ritesh Pandey. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html> 
